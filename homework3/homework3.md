@@ -107,20 +107,20 @@ wc [filename]
 
 效果如下(每张截图由两部分组成，上面为`ls`指令效果，下面为本人实现效果)：
 - `ls`:
-![alt text](image-2.png)
+- ![alt text](image-2.png)
 - `ls -l`:
-![alt text](image-3.png)
+- ![alt text](image-3.png)
     - 由于我是先对于文件进行遍历打印，同时进行统计，故而最后打印`total`结果，同时可以看到，`ls -l`指令应该是采用了某种组织方式进行顺序的排序。
 - `ls -d`:
-![alt text](image-4.png)
+- ![alt text](image-4.png)
 - `ls -R`:
-![alt text](image-5.png)
+- ![alt text](image-5.png)
 - `ls -a`:
-![alt text](image-6.png)
+- ![alt text](image-6.png)
 - `ls -i`:
-![alt text](image-7.png)
+- ![alt text](image-7.png)
 - **参数组合**(以`-a -l -R -i`组合举例)
-![alt text](image-8.png)
+- ![alt text](image-8.png)
 - 实现功能：5个参数能组合且位置顺序不固定，可为任意次序。
 
 ### `wc`命令
